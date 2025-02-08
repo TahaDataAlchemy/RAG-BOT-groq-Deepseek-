@@ -3,7 +3,7 @@ import streamlit as st
 from rag_utility import process_document_to_chroma_db, answer_question  # Ensure this module is available
 
 # Set the working directory where PDFs will be stored
-working_dir = r"D:\Taha\RAG BOT GROQ\pdfs"
+working_dir = r"your directory"
 
 # Ensure directory exists
 os.makedirs(working_dir, exist_ok=True)
